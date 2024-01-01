@@ -1,0 +1,41 @@
+/* src/components/LoginPage.css */
+
+.login-container {
+  text-align: center;
+  margin-top: 50px;
+  background: url('../assets/1.jpg') center/cover no-repeat; /* Replace with the actual path to your background image */
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: rgba(16, 14, 14, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  background-color: #f6f7f7;
+  color: #020202;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}

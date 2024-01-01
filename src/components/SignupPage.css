@@ -1,0 +1,82 @@
+/* src/components/SignupPage.css */
+
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/1.jpg') center/cover no-repeat; /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #616D7Edb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #2C3539;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+  
+  .signup-title {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-label {
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #95a5a6;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  
+    &:focus {
+      border-color: #3498db;
+    }
+  }
+  
+  .signup-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .signup-checkbox-label {
+    margin-left: 8px;
+    color: #333;
+  }
+  
+  .signup-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+  
