@@ -16,7 +16,7 @@ const TVShowsPage = () => {
     time: '',
   });
    // Predefined options for date and time
-   const allowedDates = ['Friday-2023-12-15', 'tuseday-2023-12-26', 'sunday-2024-01-15'];
+   const allowedDates = ['Friday-2023-12-15', 'Tuseday-2023-12-26', 'Sunday-2024-01-06'];
    const allowedTimes = ['12:00', '15:30', '18:00'];
  
    const handleDateChange = (date) => {
